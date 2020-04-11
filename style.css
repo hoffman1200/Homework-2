@@ -3,9 +3,9 @@ html, body {
     width: 100%;
     background-color: black;
     color: #222;
-    font-family: "poppins";
-    
+    font-family: "poppins";    
 }
+/* Navbar */
 
 .navbar {
     height: 70px;    
@@ -47,14 +47,15 @@ html, body {
     color: white;
     font-size: xx-large; 
     padding-left: 50px;
-    padding-top: 1rem;
-    
+    padding-top: 1rem;    
 }
+
+/* Carousel */
 
 #carouselcontainer {
     padding-top: 70px;
-
 }
+
 .carousel-caption {
     position: absolute;
     top: 60%;
@@ -70,6 +71,8 @@ html, body {
 .display-2 {
     font-family: Gloss and Bloom;
 }
+
+/* About Me Section */
 
 #jumbo {
     padding-top: 20px;
@@ -87,6 +90,8 @@ html, body {
     text-align: center;
     padding-top: 10px;
 }
+
+/* Footer */
 
 footer {
     color: white;
@@ -112,6 +117,55 @@ footer h5 {
     color: white;
 }
 
+#portfolio {
+    background-image: url(/Images/Code.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    width: 100%;
+    height: 670px;
+    
+}
+
+#disp4 {
+    margin-top: -25px;
+    font-family: Gloss and Bloom;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card-title {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    
+    
+}
+
+#boton {
+    margin-left: 40px;
+}
+
+#dados {
+    margin-top: 50px;
+}
+
+#dados2 {
+    margin-top: 33px;
+}
+
+#dados3 {
+    margin-top: 120px;
+}
+
+#dados4 {
+    margin-top: 97px;
+}
+
 @media (max-width: 980px) {
     #aboutmep {
         margin-top: 20px;
@@ -123,8 +177,6 @@ footer h5 {
         margin-top: 20px;
     }
 }
-
-
 
 @media (max-width: 640px) {
     .carousel-caption {
