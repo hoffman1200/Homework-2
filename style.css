@@ -118,7 +118,7 @@ footer h5 {
 }
 
 #portfolio {
-    background-image: url(/Images/Code.jpg);
+    background-image: url(../Homework-2/Images/Code.jpg);
     background-size: cover;
     padding-top: 70px;
     width: 100%;
@@ -133,6 +133,69 @@ footer h5 {
     color: white;
     text-align: center;
 }
+
+#contact {
+    background-image: url(../Homework-2/Images/web.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    width: 100%;
+    height: 670px;
+
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    margin-top: 25px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px gray;
+
+}
+
+.social a {
+    font-size: 4.5em;
+}
+
+#socialnet {
+    padding-top: 20px;
+}
+
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  } */
+
+  #facebook {
+    color: white;
+    margin-right: 130px;
+    margin-left: 30px;
+  } 
+  
+#youtube {
+      color: white;
+      margin-left: 0px;
+      margin-right: -200px;
+} 
+
+#soundcloud {
+    color: white;
+    margin-right: 120px;
+} 
+
+#instagram {
+      color: white;
+      margin-left: 60px;
+      margin-right: -200px;
+} 
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
 
 .card {
     background-color: transparent;
@@ -170,11 +233,26 @@ footer h5 {
     #aboutmep {
         margin-top: 20px;
     }
+    #portfolio {
+        height: 100%;
+    }
+    .card {
+        margin-left: 170px;
+    }
 }
 
 @media (max-width: 768px) {
     #aboutmep {
         margin-top: 20px;
+    }
+    #portfolio {
+        height: 100%;
+    }
+    .card {
+        margin-left: 170px;
+    }
+    #contact {
+        height: 100%;
     }
 }
 
@@ -183,6 +261,10 @@ footer h5 {
         position: absolute;
         top: 26%;
         transform: translateY(-50%);
+    }
+
+    .card {
+        margin-left: 120px;
     }
 }
 

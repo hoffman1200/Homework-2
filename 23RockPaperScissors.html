@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 Rock Paper Scissors</title>
+</head>
+<body>
+<!-- 
+    Rock, paper, scissors:
+    
+    Rock: wins scissors, loses to paper and ties against itself.
+    Paper: wins rock, loses to scissors and ties against itself.
+    Scissors: wins paper, loses rock and ties against itself.
+
+    entrada del usuario
+    eleccion de la computadora
+    comparar las respuestas
+    decidir ganador
+    marcador
+    hacer loop
+
+-->
+
+<script>
+
+var possibleAnswers = ["rock", "paper", "scissors"];
+//marcador:
+var wins = 0
+var losses = 0
+var ties = 0
+
+while (true) {
+    var userInput = prompt("rock, paper or scissors?");
+    console.log("User Picked " + userInput);
+
+    var computerNumber = Math.floor(Math.random() * 3);
+    var computerAnswer = possibleAnswers[computerNumber]; 
+    console.log("Computer Answer: " + computerAnswer);
+    alert("CPU Picks " + computerAnswer);
+
+    if (userInput === computerAnswer) {
+        ties++ // ties = ties + 1
+        alert("You´ve tied " + ties + " times");
+    }
+
+    else if(    (userInput === "rock" && computerAnswer === "scissors") ||
+                (userInput === "paper" && computerAnswer === "rock") ||   
+                (userInput === "scissors" && computerAnswer === "paper") ){
+                wins++
+                alert("You´ve win " + wins + " times");
+    }
+
+    else if(    (userInput === "rock" && computerAnswer === "paper") ||
+                (userInput === "scissors" && computerAnswer === "rock") ||
+                (userInput === "paper" && computerAnswer === "scissors") ){
+                losses++
+                alert("You´ve lose " + losses + " times");
+    }
+}
+
+
+
+// else if (User === "rock" && RPS[CPU] === "scissors") {
+//     alert("You Win!!!")
+// }
+
+// else if (User === "rock" && RPS[CPU] === "paper") {
+//     alert("You Lose!!")
+// }
+
+// else if (User === "paper" && RPS[CPU] === "rock") {
+//     alert("You Win!!!")
+// }
+
+// else if (User === "paper" && RPS[CPU] === "scissors") {
+//     alert("You Lose!!!")
+// }
+
+// else if (User === "scissors" && RPS[CPU] === "rock") {
+//     alert("You Lose!!!")
+// }
+
+// else if (User === "scissors" && RPS[CPU] === "paper") {
+//     alert("you win!!!")
+// }
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
