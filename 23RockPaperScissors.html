@@ -25,11 +25,13 @@
 <script>
 
 var possibleAnswers = ["rock", "paper", "scissors"];
-//marcador:
 var wins = 0
 var losses = 0
 var ties = 0
 
+var play = confirm("Want to Play?");
+if (play == true) {
+} 
 while (true) {
     var userInput = prompt("rock, paper or scissors?");
     console.log("User Picked " + userInput);
@@ -57,6 +59,14 @@ while (true) {
                 losses++
                 alert("You´ve lose " + losses + " times");
     }
+
+    if(     (wins == 1) ||
+            (losses == 1) ||
+            (ties == 1)){ 
+            document.write("Refresh to play again")
+            break;
+        } 
+
 }
 
 
