@@ -1,3 +1,8 @@
+@font-face {
+    src: url(/Fonts/gloss_and_bloom/Gloss_And_Bloom.ttf);
+    font-family: Gloss and Bloom;
+}
+
 html, body {
     height: 100%;
     width: 100%;
