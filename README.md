@@ -8,11 +8,11 @@
 
 	Welcome to my portfolio!!
 	
-  This responsive website was built using: 
-  Html5
+  	This responsive website was built using: 
+  	Html5
 	CSS
 	Bootstrap and
-  Media Queries
+  	Media Queries
 
 ## Release Date
 
