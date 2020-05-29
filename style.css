@@ -8,8 +8,10 @@ html, body {
     width: 100%;
     background-color: black;
     color: #222;
-    font-family: "poppins", 'Times New Roman', Times, serif
+    font-family: "poppins", 'Times New Roman', Times, 
 }
+
+body{ padding-top: 20px;}
 /* Navbar */
 
 .navbar {
@@ -58,7 +60,7 @@ html, body {
 /* Carousel */
 
 #carouselcontainer {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .carousel-caption {
@@ -75,6 +77,14 @@ html, body {
 
 .display-2 {
     font-family: Gloss and Bloom;
+}
+
+#button2 {
+    background-color:rgba(108, 109, 112, 0.842);
+}
+
+#button3 {
+    background-color: rgba(108, 109, 112, 0.842);    
 }
 
 /* About Me Section */
@@ -106,10 +116,30 @@ html, body {
     
 }
 
+#linksPortfolio {
+    padding-top: 20px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
 /* Contact Form */
 
 #disp4 {
-    margin-top: -25px;
+    margin-top: 65px;
+    font-family: Gloss and Bloom;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+#disp5 {
+    margin-top: -30px;
     font-family: Gloss and Bloom;
     letter-spacing: 2px;
     color: white;
@@ -121,7 +151,7 @@ html, body {
     background-size: cover;
     padding-top: 70px;
     width: 100%;
-    height: 670px;
+    /* height: 670px; */
     
 }
 
